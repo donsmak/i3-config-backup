@@ -1,0 +1,7 @@
+configuration {
+ modi: "window,drun,run";
+ font: "Hack Nerd Font 13";
+ show-icons: true;
+ icon-theme: "Papirus";
+ }
+@theme "solarized"

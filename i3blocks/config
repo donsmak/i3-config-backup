@@ -1,0 +1,36 @@
+[cpu_usage]
+command=~/.config/i3blocks/scripts/cpu_usage.pl
+interval=10
+LABEL= 
+#min_width=CPU: 100.00%
+#T_WARN=50
+#T_CRIT=80
+#DECIMALS=2
+#COLOR_NORMAL=#EBDBB2
+#COLOR_WARN=#FFFC00
+#COLOR_CRIT=#FF000
+
+[memory]
+command=~/.config/i3blocks/scripts/memory.sh
+label= 
+interval=30
+
+[temperature]
+command=~/.config/i3blocks/scripts/temperature.pl
+interval=10
+label= 
+
+[calendar]
+command=~/.config/i3blocks/scripts/calendar.sh
+interval=1
+LABEL=󱕻 
+DATEFMT=+%H:%M:%S
+# SHORTFMT=+%H:%M:%S
+HEIGHT=180
+WIDTH=220
+
+[volume-pipewire]
+command=~/.config/i3blocks/scripts/volume-pipewire.sh
+interval=persist
+SUBSCRIBE=1
+USE_ALSA_NAME=1
